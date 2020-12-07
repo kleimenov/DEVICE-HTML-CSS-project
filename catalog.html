@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML Academy: Девайс</title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="header-catalog container">
+      <section class="user-nav">
+        <h3 class="visually-hidden">Accaunt</h3>
+        <a href="index.html" class="logo-header-cat">
+          <img
+            src="img/device.svg"
+            width="163"
+            height="35"
+            alt="Логотип Device"
+          />
+        </a>
+        <div class="user-nav-wrapper">
+          <form class="form-wrapper" action="#" method="post">
+            <label class="form-search visually-hidden" for="search"></label>
+            <input
+              class="search-input"
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Find your favorite device"
+            />
+            <button class="search-button">Search</button>
+          </form>
+          <div class="user-list-wrapper-cat">
+            <ul class="user-list-cat">
+              <li>
+                <a class="name-link" href="#"><span>John Smith</span></a>
+              </li>
+              <li><a href="#">Sign out</a></li>
+            </ul>
+            <ul class="purchase-list-cat">
+              <li><a class="compare-link-cat" href="#">Compare</a></li>
+              <li><a class="cart-link-cat" href="#">Chart</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <nav class="header-navigation">
+        <ul class="nav-list">
+          <li class="pzd">
+            <a class="catalog-link" href="catalog.html">Departments</a>
+            <div class="pzd-wrapper-catalog">
+              <ul class="pzd1-catalog">
+                <li><a href="#">Virtual reality</a></li>
+                <li><a href="#">Monopod Selfie Sticks</a></li>
+                <li><a href="#">Action cameras</a></li>
+              </ul>
+              <ul class="pzd2-catalog">
+                <li><a href="#">Fitness trackers</a></li>
+                <li><a href="#">Smartwatches</a></li>
+              </ul>
+              <ul class="pzd3-catalog">
+                <li><a href="#">Quadcopters</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="delivery.html">Delivery</a></li>
+          <li><a href="warranty.html">Warranty</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h1 class="catalog-head">Monopod selfie stick</h1>
+        <div class="div-list">
+          <ul class="list-nav">
+            <li><a class="arrow" href="index.html">Main</a></li>
+            <li><a class="arrow-2" href="catalog.html">Departments</a></li>
+            <li><a href="#">Monopod selfie sticks</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content-index-wrapper">
+        <div class="flex-wrapper container">
+          <section class="container-lvl1">
+            <div class="filter-head">Filter:</div>
+            <form class="filter" method="post" action="https://echo.htmlacademy.ru/courses">
+              <div class="black-line-cost"></div>
+              <fieldset class="filter-item">
+                <legend>Pirce</legend>
+                <div class="range-filter">
+                  <div class="range-controls">
+                    <div class="scale">
+                      <div class="bar"></div>
+                    </div>
+                    <div class="toggle toggle-min"></div>
+                    <div class="toggle toggle-max"></div>
+                  </div>
+                  <div class="price-controls">
+                    <label class="min-price"
+                      >from <input name="min-price" type="text" value="0"
+                    /></label>
+                    <label class="max-price"
+                      >to <input name="max-price" type="text" value="5000"
+                    /></label>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset>
+                <div class="black-line-color"></div>
+                <h2 class="color-form">Color</h2>
+                <ul class="color-list">
+                  <li class="filter-option">
+                    <input
+                      class="visually-hidden filter-input filter-input-checkbox"
+                      type="checkbox"
+                      name="black"
+                      id="filter-black"
+                      checked
+                    />
+                    <label for="filter-black">Black</label>
+                  </li>
+                  <li class="filter-option">
+                    <input
+                      class="visually-hidden filter-input filter-input-checkbox"
+                      type="checkbox"
+                      name="white"
+                      id="filter-white"
+                    />
+                    <label for="filter-white">White</label>
+                  </li>
+                  <li class="filter-option">
+                    <input
+                      class="visually-hidden filter-input filter-input-checkbox"
+                      type="checkbox"
+                      name="blue"
+                      id="filter-blue"
+                      checked
+                    />
+                    <label for="filter-blue">Blue</label>
+                  </li>
+                  <li class="filter-option">
+                    <input
+                      class="visually-hidden filter-input filter-input-checkbox"
+                      type="checkbox"
+                      name="red"
+                      id="filter-red"
+                      checked
+                    />
+                    <label for="filter-red">Red</label>
+                  </li>
+                  <li class="filter-option">
+                    <input
+                      class="visually-hidden filter-input filter-input-checkbox"
+                      type="checkbox"
+                      name="pink"
+                      id="filter-pink"
+                    />
+                    <label for="filter-pink">Pink</label>
+                  </li>
+                </ul>
+              </fieldset>
+              <fieldset>
+                <div class="black-line-bluetooth"></div>
+                <h2 class="Bluetooth-form">Bluetooth</h2>
+                <ul class="bluetooth-list">
+                  <li class="filter-option-bluetooth">
+                    <input
+                      class="visually-hidden filter-input filter-input-radio"
+                      type="radio"
+                      name="Bluetooth"
+                      id="filter-Bluetooth-yes"
+                      checked
+                    />
+                    <label for="filter-Bluetooth-yes">Yes</label>
+                  </li>
+                  <li class="filter-option-bluetooth">
+                    <input
+                      class="visually-hidden filter-input filter-input-radio"
+                      type="radio"
+                      name="Bluetooth"
+                      id="filter-Bluetooth-no"
+                    />
+                    <label for="filter-Bluetooth-no">No</label>
+                  </li>
+                </ul>
+              </fieldset>
+              <div class="contact-form-ct">
+                <button class="contact-us-ct" type="submit">Show</button>
+              </div>
+            </form>
+          </section>
+          <section class="container-lvl2">
+            <h2 class="visually-hidden">List of items</h2>
+            <div class="sort-wrapper">
+              <div class="sort-head">Sort by:</div>
+              <ul class="sort-func">
+                <li><a class="sort-current" href="#">Price</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Top sellers</a></li>
+              </ul>
+              <ul class="sort-func-2">
+                <li>
+                  <a class="up-icon" href="#"
+                    ><span class="visually-hidden">Upper</span></a
+                  >
+                </li>
+                <li>
+                  <a class="down-current down-icon" href="#"
+                    ><span class="visually-hidden">Lower</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <ul class="items-description">
+              <li class="catalog-item">
+                <img
+                  class="image-item"
+                  width="360"
+                  height="380"
+                  src="img/item-1-jpg.jpg"
+                  alt="Любительская селфи-палка"
+                />
+                <div class="mask">
+                  <a class="add-to-cart" href="#">Add to chart</a>
+                  <a class="add-to-compare" href="#">Compare</a>
+                </div>
+                <div class="item-text">
+                  <a class="separator" href="#">Semi-professional monopod</a
+                  ><span class="price-items">500&nbsp;rub</span>
+                </div>
+              </li>
+              <li class="catalog-item">
+                <img
+                  class="image-item"
+                  width="360"
+                  height="380"
+                  src="img/item-2-jpg.jpg"
+                  alt="Профессиональная селфи-палка"
+                />
+                <div class="mask">
+                  <a class="add-to-cart" href="#">Add to chart</a>
+                  <a class="add-to-compare" href="#">Compare</a>
+                </div>
+                <div class="item-text">
+                  <a class="separator" href="#"
+                    >Professional monopod</a
+                  ><span class="price-items">1&nbsp;500&nbsp;rub</span>
+                </div>
+              </li>
+              <li class="catalog-item">
+                <img
+                  class="image-item"
+                  width="360"
+                  height="380"
+                  src="img/item-3-jpg.jpg"
+                  alt="Непотопляемая селфи-палка"
+                />
+                <div class="mask">
+                  <a class="add-to-cart" href="#">Add to chart</a>
+                  <a class="add-to-compare" href="#">Compare</a>
+                </div>
+                <div class="item-text">
+                  <a class="separator" href="#"
+                    >Waterproof&nbsp;monopod</a
+                  ><span class="price-items">2&nbsp;500&nbsp;rub</span>
+                </div>
+              </li>
+              <li class="catalog-item catalog-item-new">
+                <img
+                  class="image-item"
+                  width="360"
+                  height="380"
+                  src="img/item-4-jpg.jpg"
+                  alt="Селфи-палка Следуй за мной"
+                />
+                <div class="mask">
+                  <a class="add-to-cart" href="#">Add to chart</a>
+                  <a class="add-to-compare" href="#">Compare</a>
+                </div>
+                <div class="item-text">
+                  <a class="separator" href="#"
+                    >Monopod "Fallow me"</a
+                  ><span class="price-items">4&nbsp;900&nbsp;rub</span>
+                </div>
+              </li>
+            </ul>
+            <div class="list-of-items">
+              <a class="list-navigation-link" href="#">Previous</a>
+              <ul class="pagination-list">
+                <li class="pagination-item">
+                  <a class="pagination-current" href="#">1</a>
+                </li>
+                <li class="pagination-item"><a href="#">2</a></li>
+                <li class="pagination-item"><a href="#">3</a></li>
+              </ul>
+              <a class="list-navigation-link" href="#">Next</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer-catalog">
+      <div class="container">
+        <section class="nav-footer">
+          <h3 class="visually-hidden">Личный кабинет</h3>
+          <a href="index.html" class="logo-footer-ct"
+            ><img
+              src="img/logo_mc.svg"
+              width="163"
+              height="35"
+              alt="Логотип Device"
+          /></a>
+          <div class="info-user">
+            <ul class="info-wrapper">
+              <li>
+                <a class="petuhov" href="#"><span>John Smith</span></a>
+              </li>
+              <li><a href="#">Sign out</a></li>
+            </ul>
+            <ul class="purchase-footer">
+              <li><a class="compare-footer-ct" href="#">Compare</a></li>
+              <li><a class="cart-footer-ct" href="#">Chart</a></li>
+            </ul>
+          </div>
+        </section>
+        <div class="footer-inf-part-ct">
+          <p class="adress-ct">
+            15 Developers avenue, Moscow
+          </p>
+          <div>
+            <ul class="footer-nl-ct">
+              <li><a href="delivery.html">Delivery</a></li>
+              <li><a href="warranty.html">Warranty</a></li>
+              <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+          </div>
+          <a href="tel:+74954959595" class="contact-number-ct">
+            Tel: +7(495)495-95-95
+          </a>
+        </div>
+        <div class="footer-buttom-ct">
+          <div class="yellow-line-ct"></div>
+          <ul class="social-link-ct">
+            <li>
+              <a class="fb-footer-ct" href="http://www.facebook.com"
+                ><span class="visually-hidden">facebook</span></a
+              >
+            </li>
+            <li>
+              <a class="inst-footer-ct" href="http://www.instagram.com"
+                ><span class="visually-hidden">instagram</span></a
+              >
+            </li>
+            <li>
+              <a class="tw-footer-ct" href="http://www.twitter.com"
+                ><span class="visually-hidden">twitter</span></a
+              >
+            </li>
+          </ul>
+          <div class="html-ac">
+            <a href="https://htmlacademy.ru/intensive/htmlcss"
+              ><span class="visually-hidden">HTML Academy</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
