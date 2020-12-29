@@ -1,25 +1,18 @@
 
 let bullets = document.querySelectorAll('.slider-nav-bullet');
+let sliderItems =document.querySelectorAll('.slider-items');
+sliderItems[1].classList.add('hide');
+sliderItems[2].classList.add('hide');
 
 
-
-
-
-for (let index in checkedBullet) {
-    index.addEventListener('click', (evt) => {
+for (let index in bullets) {
+    bullets[index].addEventListener('click', (evt) => {
         evt.preventDefault();
-        if(!index.classList.contains('slider-nav-bullet-checked')) {
-            index.classList.add('slider-nav-bullet-checked')
-        } else {
-            index.classList.remove('slider-nav-bullet-checked')
+        document.querySelector('.slider-nav-bullet-checked').classList.remove('slider-nav-bullet-checked');
+        bullets[index].classList.add('slider-nav-bullet-checked');
+        for (let slide of sliderItems) {
+            slide.classList.add('hide');
         }
+        sliderItems[index].classList.remove('hide')
     })
 }
-
-/*
-checkedBullet[bullet].addEventListener('click', (evt) => {
-    evt.preventDefault();
-    checkedBullet[bullet].classList.toggle('slider-nav-bullet-checked')
-    console.log('hello')
-})
-*/
