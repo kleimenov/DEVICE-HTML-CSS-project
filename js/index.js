@@ -1,8 +1,7 @@
 
 let bullets = document.querySelectorAll('.slider-nav-bullet');
 let sliderItems =document.querySelectorAll('.slider-items');
-sliderItems[1].classList.add('hide');
-sliderItems[2].classList.add('hide');
+
 
 
 for (let index in bullets) {
