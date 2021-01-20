@@ -23,7 +23,7 @@ Above was provided a brief description of the Device project.
 
 ### Tech descripton and specification
 
-This website includes three web pages. All pages are responsive, work with a broad variety of screens in range from mobile devices (screen width 320px) to desktops (screen width 1200px and higher). This cross-devices website affords users to feel comfortable interacting with content whether the size of the screen their device has.
+This website includes two web pages. All pages aren't responsive. In this project, I implemented my current HTML, CSS, and JavaScript knowledge, and maximum attention put on sophisticated grids, selectors settings and selectors combination. 
 
 This project is build with the following technologies:
 ```
@@ -32,13 +32,12 @@ This project is build with the following technologies:
 - JavaScript;
 
 ```
-Semantic HTML is used for all webpages markup with the elements of block - element - modifier system in class naming. All elements are styled with CSS using the inheritance and cascading rules, and selectors specificity. CSS rules are contained in a separate .scss files for easier maitenance and then compiled with the Sass preprocessor into a CSS style master file to reduce the number of interactions with a server. Responsiveness is provided by the usage of media queries and sass variables.
-All algorithms  were implemented with JavaScript. This includes DOM manipulation (DOM elements creation and modification) and API fetching.
+Semantic HTML is used for all webpages markup with the elements of block - element - modifier system in class naming. All elements are styled with CSS using the inheritance and cascading rules, and selectors specificity. 
+
+All algorithms  were implemented with JavaScript. This includes DOM manipulation (DOM elements creation and modification).
 
 ---
 ### Descriptions of JavaScript features 
-1) _Weather API_ implemented on vanilla JavaScript. Weather API architecture includes following functions: 
-Function `displayWeather()` creates DOM elements that contains weather data. Function `getWeather()` fetches weather API from outer resource. Functions `celsiusToFahrenheit()` and `fahrenheitToCelsius()` calculate and transition data to the measurement sistem convenient for user.
-2) _Modal hotel booking form_. Implemented algorithm allows to show and hide modal booking form. Algorithm includes follow steps: find modal element inside HTML markup, listen for the event `a user click on the button`, show the modal booking form, get user's data, hide modal form when user click on a particular button. 
-3) _Likes toggle_ with the toggle algorithm.
+1) _Modal contact us form_. Implemented algorithm allows to show and hide modal contact form. Algorithm includes follow steps: find modal element inside HTML markup, listen for the event `a user click on the button`, show the modal booking form, get user's data, hide modal form when user click on a particular button. 
+2) _Items slider_. Implemented slider algorithm that allows showing different items with description (in this case slider includes three different blocks with item image, description, and specification). Algorithm includes following steps: find the slider holder element inside HTML markup, listen for the event `a user click on the button`, show the particular item slide, another click show the another slide and so on.
 
