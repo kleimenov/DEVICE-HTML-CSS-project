@@ -11,7 +11,7 @@ This is gadgets online store website. `Device` website consists of two web pages
 
 All pages contain the website header (aka navigation block) with the link to the catalog page, login and logout, cart, and compare, and a dropdown menu. Footer block with contacts, social networking sites links, login, and logout buttons, and link to HTML Academy website (frontend Bootcamp).
 
-1) _ The main page is the landing page, where you can find a web page header with the double navigation menu. The first nav-menu consists of links on other pages (in this case works just catalog page link, others are mock links). The second nav-menu include login and log out buttons, link on the cart, and compare items link, and a dropdown menu of items. The main part of the web page contains information about store and services, gadgets advertismnt and links on partners websites.
+1) _ The main page is the landing page, where you can find a web page header with the double navigation menu. The first nav-menu consists of links on other pages (in this case works just catalog page link, others are mock links). The second nav-menu include login and log out buttons, link on the cart, and compare items link, and a dropdown menu of items. The main part of the web page contains information about store and services, gadgets advertisment and links on partners websites.
 
 2) _The catalog page_ is the items host page. On this page, you can find a wide variety of filters and information blocks of items with main information like price and descriptions. 
 
