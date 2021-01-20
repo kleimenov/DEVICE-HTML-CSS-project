@@ -1,14 +1,13 @@
-# Responsive website «Device». 
+# Online store website «Device». 
 (non-commercial project)
 
 * Author: [Ivan Kleimenov](https://github.com/kleimenov).
 
 ---
 ### Description
-This is the city of Sedona, AZ website. The main idea is to introduce advertisement of the city and to provide useful information about the city and region attractions and services. Sedona's website has three webpages:
+This is gadgets online store website. `Device` website consists of two web pages main page and the catalog of items page.  Sedona's website has two webpages:
 - main (home) page;
-- photos page;
-- reviews page.
+- catalog page.
 
 All pages contain the website header (aka navigation block) with the links to other pages (photos page, reviews form page) and the footer block with city hashtag, social networking sites links, and link to HTML Academy website (frontend Bootcamp).
 
@@ -19,7 +18,7 @@ All pages contain the website header (aka navigation block) with the links to ot
 3) _The reviews page_ includes forms with different types of interactive elements such as radio buttons, checkboxes, text inputs, etc.
 
 Above was provided a brief description of the Sedona project.
-[You can explore this website detailed here (link on github pages)](https://kleimenov.github.io/SEDONA-HTML-CSS-project/source/index.html)
+[You can explore this website detailed here (link on github pages)]https://kleimenov.github.io/DEVICE-HTML-CSS-project/
 
 ---
 
