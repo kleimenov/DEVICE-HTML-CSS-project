@@ -17,7 +17,7 @@ All pages contain the website header (aka navigation block) with the link to the
 
 
 Above was provided a brief description of the Device project.
-[You can explore this website detailed here (link on github pages)]https://kleimenov.github.io/DEVICE-HTML-CSS-project/
+[You can explore this website detailed here (link on github pages)](https://kleimenov.github.io/DEVICE-HTML-CSS-project/)
 
 ---
 
