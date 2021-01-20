@@ -1,43 +1,47 @@
-# Личный проект «Девайс»
+# Responsive website «Device». 
+(non-commercial project)
 
-* Студент: [Ivan Kleimenov](https://up.htmlacademy.ru/htmlcss/26/user/1162513).
-* Наставник: [Виктор Кан](https://htmlacademy.ru/profile/viktorkan).
+* Author: [Ivan Kleimenov](https://github.com/kleimenov).
+
+---
+### Description
+This is the city of Sedona, AZ website. The main idea is to introduce advertisement of the city and to provide useful information about the city and region attractions and services. Sedona's website has three webpages:
+- main (home) page;
+- photos page;
+- reviews page.
+
+All pages contain the website header (aka navigation block) with the links to other pages (photos page, reviews form page) and the footer block with city hashtag, social networking sites links, and link to HTML Academy website (frontend Bootcamp).
+
+1) _The main page_ is the landing page, where you can find a local weather widget (that fetches data from a weather API), a main hero section, a features list, an accomodation search pop-up and a map.
+
+2) _The photo page_ is the photos and videos host page. On this page you can find popular photos, explore users attitude (amount of likes), and show your respect that photos and authors that attracts your attention. 
+
+3) _The reviews page_ includes forms with different types of interactive elements such as radio buttons, checkboxes, text inputs, etc.
+
+Above was provided a brief description of the Sedona project.
+[You can explore this website detailed here (link on github pages)](https://kleimenov.github.io/SEDONA-HTML-CSS-project/source/index.html)
 
 ---
 
-_Не удаляйте и не обращайте внимание на файлы:_<br>
-_`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
+### Tech descripton and specification
+
+This website includes three web pages. All pages are responsive, work with a broad variety of screens in range from mobile devices (screen width 320px) to desktops (screen width 1200px and higher). This cross-devices website affords users to feel comfortable interacting with content whether the size of the screen their device has.
+
+This project is build with the following technologies:
+```
+- HTML;
+- CSS;
+- JavaScript;
+- SASS;
+- weather API (fetch data from weather API);
+```
+Semantic HTML is used for all webpages markup with the elements of block - element - modifier system in class naming. All elements are styled with CSS using the inheritance and cascading rules, and selectors specificity. CSS rules are contained in a separate .scss files for easier maitenance and then compiled with the Sass preprocessor into a CSS style master file to reduce the number of interactions with a server. Responsiveness is provided by the usage of media queries and sass variables.
+All algorithms  were implemented with JavaScript. This includes DOM manipulation (DOM elements creation and modification) and API fetching.
 
 ---
+### Descriptions of JavaScript features 
+1) _Weather API_ implemented on vanilla JavaScript. Weather API architecture includes following functions: 
+Function `displayWeather()` creates DOM elements that contains weather data. Function `getWeather()` fetches weather API from outer resource. Functions `celsiusToFahrenheit()` and `fahrenheitToCelsius()` calculate and transition data to the measurement sistem convenient for user.
+2) _Modal hotel booking form_. Implemented algorithm allows to show and hide modal booking form. Algorithm includes follow steps: find modal element inside HTML markup, listen for the event `a user click on the button`, show the modal booking form, get user's data, hide modal form when user click on a particular button. 
+3) _Likes toggle_ with the toggle algorithm.
 
-### Памятка
-
-#### 1. Зарегистрируйтесь на Гитхабе
-
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
-
-#### 2. Создайте форк
-
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/1162513-device-26) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29038004-a420d688-7bae-11e7-9a40-8f72e1f3cac4.jpg">
-
-Получится вот так:
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29038006-a4ff0afc-7bae-11e7-9786-c06aa082f7a4.jpg">
-
-#### 3. Клонируйте репозиторий на свой компьютер
-
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Нажмите кнопку «Clone or download», а затем «Open in Desktop», чтобы клонировать репозиторий через программу [GitHub Desktop](https://desktop.github.com):
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29038009-a63d0cca-7bae-11e7-9c84-95e21fcbff13.jpg">
-
-Программа клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
-
-#### 4. Начинайте обучение!
-
----
-
-<a href="https://htmlacademy.ru/intensive/htmlcss"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/htmlcss/logo-for-github-2.png"></a>
-
-Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS, уровень 1](https://htmlacademy.ru/intensive/htmlcss)» от [HTML Academy](https://htmlacademy.ru).
