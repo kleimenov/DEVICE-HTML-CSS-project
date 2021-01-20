@@ -5,7 +5,7 @@
 
 ---
 ### Description
-This is gadgets online store website. `Device` website consists of two web pages main page and the catalog of items page.  Sedona's website has two webpages:
+This is gadgets online store website. `Device` website consists of two web pages main page and the catalog of items page.  Device's website has two webpages:
 - main (home) page;
 - catalog page.
 
