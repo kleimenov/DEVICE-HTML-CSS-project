@@ -20,7 +20,6 @@ Above was provided a brief description of the Device project.
 [You can explore this website detailed here (link on github pages)](https://kleimenov.github.io/DEVICE-HTML-CSS-project/)
 
 ---
-
 ### Tech descripton and specification
 
 This website includes two web pages. All pages aren't responsive. In this project, I implemented my current HTML, CSS, and JavaScript knowledge, and maximum attention put on sophisticated grids, selectors settings and selectors combination. 
